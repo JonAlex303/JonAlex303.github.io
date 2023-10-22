@@ -1,6 +1,19 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 @font-face {
     font-family: 'Avalon';
     src: url(fonts/Avalon.ttf);
+}
+
+/*Content*/
+
+h1 {
+  font-family: "Heebo";
+  font-size: 90px;
+  display: grid;
+  place-items: center;
+  align-content: center;
 }
 
 ul {
@@ -32,13 +45,11 @@ ul {
     background-color: #04AA6D;
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@500&display=swap');
-
 section{
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 150vh;
+    min-height: 75vh;
     font-family: 'Roboto', sans-serif; 
     font-size: 50px;
 }
@@ -57,6 +68,6 @@ section{
 }
 
 body {
-  background-color: #131316;
+  background-image: linear-gradient(to right, #131316,  #1f1f25);
   color: #ffffff;
 }
